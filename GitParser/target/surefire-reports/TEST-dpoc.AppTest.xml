@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="dpoc.AppTest" time="0.095" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\prsekar\Desktop\cf\Disney\GitParser\target\test-classes;C:\Users\prsekar\Desktop\cf\Disney\GitParser\target\classes;C:\Users\prsekar\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\prsekar\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\prsekar\.m2\repository\com\github\javaparser\javaparser-symbol-solver-core\3.6.12\javaparser-symbol-solver-core-3.6.12.jar;C:\Users\prsekar\.m2\repository\com\github\javaparser\javaparser-symbol-solver-logic\3.6.12\javaparser-symbol-solver-logic-3.6.12.jar;C:\Users\prsekar\.m2\repository\org\javassist\javassist\3.22.0-GA\javassist-3.22.0-GA.jar;C:\Users\prsekar\.m2\repository\com\github\javaparser\javaparser-symbol-solver-model\3.6.12\javaparser-symbol-solver-model-3.6.12.jar;C:\Users\prsekar\.m2\repository\com\github\javaparser\javaparser-core\3.6.12\javaparser-core-3.6.12.jar;C:\Users\prsekar\.m2\repository\com\google\guava\guava\23.4-jre\guava-23.4-jre.jar;C:\Users\prsekar\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\prsekar\.m2\repository\com\google\errorprone\error_prone_annotations\2.0.18\error_prone_annotations-2.0.18.jar;C:\Users\prsekar\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\prsekar\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\prsekar\.m2\repository\org\eclipse\jgit\org.eclipse.jgit\4.7.0.201704051617-r\org.eclipse.jgit-4.7.0.201704051617-r.jar;C:\Users\prsekar\.m2\repository\com\jcraft\jsch\0.1.54\jsch-0.1.54.jar;C:\Users\prsekar\.m2\repository\com\googlecode\javaewah\JavaEWAH\1.1.6\JavaEWAH-1.1.6.jar;C:\Users\prsekar\.m2\repository\org\apache\httpcomponents\httpclient\4.3.6\httpclient-4.3.6.jar;C:\Users\prsekar\.m2\repository\org\apache\httpcomponents\httpcore\4.3.3\httpcore-4.3.3.jar;C:\Users\prsekar\.m2\repository\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;C:\Users\prsekar\.m2\repository\commons-codec\commons-codec\1.6\commons-codec-1.6.jar;C:\Users\prsekar\.m2\repository\org\slf4j\slf4j-api\1.7.2\slf4j-api-1.7.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\prsekar\AppData\Local\Temp\surefire7932009017190906874\surefirebooter4911195766222382469.jar C:\Users\prsekar\AppData\Local\Temp\surefire7932009017190906874 2018-07-14T17-09-30_129-jvmRun1 surefire3347302421402255204tmp surefire_0106264264931419635tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\prsekar\Desktop\cf\Disney\GitParser\target\test-classes;C:\Users\prsekar\Desktop\cf\Disney\GitParser\target\classes;C:\Users\prsekar\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\prsekar\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\prsekar\.m2\repository\com\github\javaparser\javaparser-symbol-solver-core\3.6.12\javaparser-symbol-solver-core-3.6.12.jar;C:\Users\prsekar\.m2\repository\com\github\javaparser\javaparser-symbol-solver-logic\3.6.12\javaparser-symbol-solver-logic-3.6.12.jar;C:\Users\prsekar\.m2\repository\org\javassist\javassist\3.22.0-GA\javassist-3.22.0-GA.jar;C:\Users\prsekar\.m2\repository\com\github\javaparser\javaparser-symbol-solver-model\3.6.12\javaparser-symbol-solver-model-3.6.12.jar;C:\Users\prsekar\.m2\repository\com\github\javaparser\javaparser-core\3.6.12\javaparser-core-3.6.12.jar;C:\Users\prsekar\.m2\repository\com\google\guava\guava\23.4-jre\guava-23.4-jre.jar;C:\Users\prsekar\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\prsekar\.m2\repository\com\google\errorprone\error_prone_annotations\2.0.18\error_prone_annotations-2.0.18.jar;C:\Users\prsekar\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\prsekar\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\prsekar\.m2\repository\org\eclipse\jgit\org.eclipse.jgit\4.7.0.201704051617-r\org.eclipse.jgit-4.7.0.201704051617-r.jar;C:\Users\prsekar\.m2\repository\com\jcraft\jsch\0.1.54\jsch-0.1.54.jar;C:\Users\prsekar\.m2\repository\com\googlecode\javaewah\JavaEWAH\1.1.6\JavaEWAH-1.1.6.jar;C:\Users\prsekar\.m2\repository\org\apache\httpcomponents\httpclient\4.3.6\httpclient-4.3.6.jar;C:\Users\prsekar\.m2\repository\org\apache\httpcomponents\httpcore\4.3.3\httpcore-4.3.3.jar;C:\Users\prsekar\.m2\repository\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;C:\Users\prsekar\.m2\repository\commons-codec\commons-codec\1.6\commons-codec-1.6.jar;C:\Users\prsekar\.m2\repository\org\slf4j\slf4j-api\1.7.2\slf4j-api-1.7.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\prsekar"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_121\jre"/>
+    <property name="basedir" value="C:\Users\prsekar\Desktop\cf\Disney\GitParser"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\prsekar\AppData\Local\Temp\surefire7932009017190906874\surefirebooter4911195766222382469.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="user.name" value="prsekar"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\prsekar\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\prsekar\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="user.dir" value="C:\Users\prsekar\Desktop\cf\Disney\GitParser"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk1.8.0_121/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_121/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_121/bin/../jre/lib/amd64;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Python27\;C:\Python27\Scripts;C:\Perl64\site\bin;C:\Perl64\bin;C:\Program Files\Microsoft MPI\Bin\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.8.0_31\bin;C:\Users\prsekar\Desktop\RI\softwares\apache-maven-3.2.5\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Brackets\command;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\ManagementStudio\;C:\Program Files\Java\jdk1.8.0_121\bin\;C:\Program Files\nodejs\;C:\Program Files\Cloud Foundry;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\prsekar\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\prsekar\AppData\Local\Programs\Python\Python36-32\;C:\Ruby23-x64\bin;C:\Users\prsekar\AppData\Roaming\Python\Scripts;C:\Users\prsekar\AppData\Local\Programs\EmEditor;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Users\prsekar\AppData\Local\atom\bin;C:\Users\prsekar\AppData\Roaming\npm;C:\Users\prsekar\Desktop\RI\Xampp_installation\apache\bin;C:\Program Files\Microsoft VS Code\bin;C:\Users\prsekar\AppData\Local\Microsoft\WindowsApps;;C:\Users\prsekar\Desktop\RI\softwares\IDE\eclipse-jee-oxygen-1-win32-x86_64\eclipse;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="shouldAnswerWithTrue" classname="dpoc.AppTest" time="0.005"/>
+</testsuite>

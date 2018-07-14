@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         id="myhead"
+         point="org.eclipse.core.runtime.applications">
+      <application>
+         <run
+               class="com.deloitte.gitutil.plugin.Application">
+         </run>
+      </application>
+   </extension>
+
+</plugin>
